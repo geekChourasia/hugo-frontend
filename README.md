@@ -132,6 +132,12 @@ public
 
 ---
 
+## Project Walkthrough
+
+Video demo of the project:
+
+[Download / Watch Video](./video/walkthrough.mp4)
+
 ## Related Repository
 
 Sanity CMS repository:
