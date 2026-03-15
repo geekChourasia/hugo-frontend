@@ -1,11 +1,9 @@
 ---
 title: "Introduction to Sanity CMS"
-date: "2026-03-06T12:36:00.000Z"
-excerpt: "Sanity is a powerful headless CMS."
-categories: ["web-development"]
-authors: ["john-doe"]
+date: 2026-03-06T12:36:00.000Z
+author: "John Doe"
+categories: ["Web Development"]
+description: "Sanity is a powerful headless CMS."
 ---
 
-
-
-<p>Sanity provides real-time content APIs.<br/>It is widely used with modern frameworks.</p>
+Sanity is a powerful headless CMS.
