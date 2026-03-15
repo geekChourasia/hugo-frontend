@@ -13,21 +13,21 @@
       <link>http://localhost:1313/posts/static-sites-fast/</link>
       <pubDate>Fri, 06 Mar 2026 12:52:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/static-sites-fast/</guid>
-      <description>&lt;p&gt;Static sites are faster because they skip the need for server-side rendering or database&lt;/p&gt;</description>
+      <description>&lt;p&gt;Static sites are faster because they skip the need for server-side rendering or database lookups.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding JavaScript Closures</title>
       <link>http://localhost:1313/posts/javascript-closures/</link>
       <pubDate>Fri, 06 Mar 2026 12:38:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/javascript-closures/</guid>
-      <description>&lt;p&gt;JavaScript&#xA;��������������������������������������������������������������������������&lt;/p&gt;</description>
+      <description>&lt;p&gt;JavaScript&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduction to Sanity CMS</title>
       <link>http://localhost:1313/posts/introduction-sanity-cms/</link>
       <pubDate>Fri, 06 Mar 2026 12:36:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/introduction-sanity-cms/</guid>
-      <description>&lt;p&gt;Sanity is a powerful headless CMS.&#xA;�������������������������������������������������������������&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sanity is a powerful headless CMS.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Getting Started with Hugo</title>
@@ -41,7 +41,7 @@
       <link>http://localhost:1313/posts/react-performance-optimization/</link>
       <pubDate>Fri, 06 Mar 2026 08:17:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/react-performance-optimization/</guid>
-      <description>&lt;p&gt;React&#xA;�����������������������������������������������������������������������������������������&lt;/p&gt;</description>
+      <description>&lt;p&gt;React&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

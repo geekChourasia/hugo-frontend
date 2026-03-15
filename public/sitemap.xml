@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/authors/abhishek/</loc>
-    <lastmod>2026-03-06T12:52:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2026-03-06T12:52:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-03-06T12:52:00+00:00</lastmod>
   </url><url>
@@ -29,16 +23,12 @@
     <loc>http://localhost:1313/posts/introduction-sanity-cms/</loc>
     <lastmod>2026-03-06T12:36:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/john-doe/</loc>
-    <lastmod>2026-03-06T12:36:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/getting-started-hugo/</loc>
-    <lastmod>2026-03-06T08:17:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/jane-smith/</loc>
     <lastmod>2026-03-06T08:17:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/react-performance-optimization/</loc>
     <lastmod>2026-03-06T08:17:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/</loc>
   </url>
 </urlset>
