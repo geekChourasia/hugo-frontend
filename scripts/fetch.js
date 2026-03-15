@@ -26,14 +26,13 @@ async function run() {
   const posts = await client.fetch(query);
 
   posts.forEach((post) => {
-    const content = `---
+const content = `---
 title: "${post.title}"
-date: ${post.publishDate}
-author: "${post.author}"
-categories: ["${post.category}"]
-description: "${post.excerpt}"
+date: "${post.publishDate}"
+excerpt: "${post.excerpt}"
+category: "${post.category}"
+authors: ["${post.author}"]
 ---
-
 ${post.excerpt}
 `;
 

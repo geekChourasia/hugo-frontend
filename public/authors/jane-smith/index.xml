@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jane-Smith on Hugo Blog CMS</title>
+    <title>Jane Smith on Hugo Blog CMS</title>
     <link>http://localhost:1313/authors/jane-smith/</link>
-    <description>Recent content in Jane-Smith on Hugo Blog CMS</description>
+    <description>Recent content in Jane Smith on Hugo Blog CMS</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Mar 2026 08:17:00 +0000</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/react-performance-optimization/</link>
       <pubDate>Fri, 06 Mar 2026 08:17:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/react-performance-optimization/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;p&gt;React&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
