@@ -1,0 +1,17 @@
+{
+  "name": "hugo-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass assets/scss/style.scss static/css/style.css",
+    "dev": "npm run fetch && npm run sass && hugo server",
+    "build": "npm run fetch && npm run sass && hugo",
+    "fetch": "node scripts/fetch.js"
+  },
+  "dependencies": {
+    "@portabletext/to-html": "^3.0.0",
+    "@sanity/client": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "sass": "^1.97.3"
+  }
+}

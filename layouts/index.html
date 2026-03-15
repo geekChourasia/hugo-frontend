@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<h1 class="page-title">All Blog Posts</h1>
+
+<ul class="post-list">
+  {{ range site.RegularPages }}
+
+  <li class="post-card">
+    <a class="post-card-link" href="{{ .RelPermalink }}">
+      <h2 class="post-title">{{ .Title }}</h2>
+
+      <p class="post-meta">
+        {{ .Date.Format "Jan 2, 2006" }} | {{ partial "reading-time.html" . }}
+      </p>
+
+      <p class="post-excerpt">
+        {{ with .Params.excerpt }} {{ . }} {{ else }} {{ .Summary }} {{ end }}
+      </p>
+    </a>
+  </li>
+
+  {{ end }}
+</ul>
+
+{{ end }}

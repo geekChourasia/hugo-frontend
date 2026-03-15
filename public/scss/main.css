@@ -1,0 +1,97 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f5f7fb;
+  color: #333;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+/* HEADER */
+header {
+  background: white;
+  border-bottom: 1px solid #eee; }
+
+header h1 {
+  margin: 0;
+  padding: 20px;
+  text-align: center; }
+
+header h1 a {
+  text-decoration: none;
+  color: #111; }
+
+/* MAIN LAYOUT */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+  flex: 1; }
+
+/* PAGE TITLE */
+.page-title {
+  margin-bottom: 30px; }
+
+/* POST LIST */
+.post-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 20px; }
+
+/* BLOG CARD */
+.post-card {
+  background: white;
+  border: 1px solid #eee;
+  padding: 22px;
+  border-radius: 10px;
+  transition: all 0.25s ease; }
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); }
+
+/* MAKE WHOLE CARD CLICKABLE */
+.post-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block; }
+
+/* POST TITLE */
+.post-title {
+  margin: 0 0 10px 0;
+  font-size: 20px; }
+
+/* META INFO */
+.post-meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px; }
+
+/* EXCERPT */
+.post-excerpt {
+  color: #555;
+  line-height: 1.6; }
+
+/* SINGLE POST */
+article {
+  background: white;
+  border: 1px solid #eee;
+  padding: 30px;
+  border-radius: 10px; }
+
+article img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 20px 0; }
+
+.post-content {
+  line-height: 1.7;
+  margin-top: 20px; }
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #777; }

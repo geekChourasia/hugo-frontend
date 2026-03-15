@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<article>
+  <h1>{{ .Title }}</h1>
+
+  <div class="post-meta">
+    Published: {{ .Date.Format "Jan 2, 2006" }} | {{ with .Params.author
+    }}Author: {{ . }} |{{ end }} {{ with .Params.category }} Category: {{ . }}
+    {{ end }}
+  </div>
+
+  {{ if .Params.heroImage }}
+  <img src="{{ .Params.heroImage }}" alt="{{ .Title }}" />
+  {{ end }}
+
+  <div class="post-content">{{ .Content }}</div>
+</article>
+
+{{ end }}

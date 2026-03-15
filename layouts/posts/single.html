@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<article class="blog-post">
+  <h1>{{ .Title }}</h1>
+
+  <p class="meta">
+    Published: {{ .Date.Format "Jan 2, 2006" }} | {{ partial "reading-time.html"
+    . }}
+  </p>
+
+  {{ if .Params.heroImage }}
+  <img src="{{ .Params.heroImage }}" alt="{{ .Title }}" class="hero" />
+  {{ end }}
+
+  <p>
+    Category: {{ with .Params.category }}
+    <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+  </p>
+
+  <p>
+    Author: {{ range .Params.authors }}
+    <a href="/authors/{{ . | urlize }}/">{{ . }}</a>
+    {{ end }}
+  </p>
+
+  <button class="copy-btn" onclick="copyLink()">Copy Link</button>
+
+  <h3>Table of Contents</h3>
+  {{ .TableOfContents }}
+
+  <div class="content">{{ .Content }}</div>
+</article>
+
+<script>
+  function copyLink() {
+    navigator.clipboard.writeText(window.location.href);
+    alert("Link copied!");
+  }
+</script>
+
+{{ end }}

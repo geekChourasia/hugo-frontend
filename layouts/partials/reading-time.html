@@ -1,0 +1,8 @@
+{{ $words := countwords .Content }}
+{{ $minutes := div $words 200 }}
+
+{{ if lt $minutes 1 }}
+1 min read
+{{ else }}
+{{ $minutes }} min read
+{{ end }}

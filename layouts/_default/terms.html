@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<h1 class="page-title">Authors</h1>
+
+<ul class="post-list">
+  {{ range .Data.Terms }}
+
+  <li class="post-card">
+    <a class="post-card-link" href="{{ .Page.RelPermalink }}">
+      <h2 class="post-title">{{ .Page.Title }}</h2>
+
+      <p class="post-meta">{{ .Count }} posts</p>
+    </a>
+  </li>
+
+  {{ end }}
+</ul>
+
+{{ end }}

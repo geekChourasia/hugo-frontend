@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hugo Blog CMS</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Hugo Blog CMS</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Mar 2026 12:52:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Static Sites Are Fast</title>
+      <link>http://localhost:1313/posts/static-sites-fast/</link>
+      <pubDate>Fri, 06 Mar 2026 12:52:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/static-sites-fast/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Understanding JavaScript Closures</title>
+      <link>http://localhost:1313/posts/javascript-closures/</link>
+      <pubDate>Fri, 06 Mar 2026 12:38:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/javascript-closures/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Sanity CMS</title>
+      <link>http://localhost:1313/posts/introduction-sanity-cms/</link>
+      <pubDate>Fri, 06 Mar 2026 12:36:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/introduction-sanity-cms/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>http://localhost:1313/posts/getting-started-hugo/</link>
+      <pubDate>Fri, 06 Mar 2026 08:17:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/getting-started-hugo/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>React Performance Optimization</title>
+      <link>http://localhost:1313/posts/react-performance-optimization/</link>
+      <pubDate>Fri, 06 Mar 2026 08:17:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/react-performance-optimization/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+  </channel>
+</rss>
