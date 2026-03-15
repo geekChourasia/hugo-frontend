@@ -2,7 +2,7 @@
 title: "React Performance Optimization"
 date: "2026-03-06T08:17:00.000Z"
 excerpt: "React"
-category: "Web Development"
+categories: ["Web Development"]
 authors: ["Jane Smith"]
 ---
 React

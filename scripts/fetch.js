@@ -30,7 +30,7 @@ const content = `---
 title: "${post.title}"
 date: "${post.publishDate}"
 excerpt: "${post.excerpt}"
-category: "${post.category}"
+categories: ["${post.category}"]
 authors: ["${post.author}"]
 ---
 ${post.excerpt}
