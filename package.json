@@ -2,6 +2,7 @@
   "name": "hugo-frontend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "sass": "sass assets/scss/style.scss static/css/style.css",
     "dev": "npm run fetch && npm run sass && hugo server",
